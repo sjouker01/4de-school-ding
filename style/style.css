@@ -103,14 +103,25 @@ header {
   }
 
   .project {
-    margin-bottom: 20px;
+    text-align: center; /* Om de tekst in het midden van de div te plaatsen */
+    background-color: #f2f2f2; /* Achtergrondkleur van de div */
+    padding: 20px; /* Binnenruimte rondom de div */
+    margin-bottom: 20px; /* Afstand tussen de projectdivs */
   }
 
-  .project-container {
-    background-color: #62C6CD;
-    border: 2px solid #dddddd;
-    padding: 20px;
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: center;
+  h2 {
+    color: #333333; /* Kleur van de projecttitel */
+  }
+
+  p {
+    color: #666666; /* Kleur van de projectbeschrijving */
+  }
+
+  .project-link {
+    display: inline-block; /* Om de link naast de tekst te laten verschijnen */
+    margin-top: 10px; /* Afstand tussen de tekst en de link */
+    background-color: #ff9900; /* Achtergrondkleur van de link */
+    color: #ffffff; /* Kleur van de linktekst */
+    padding: 5px 10px; /* Binnenruimte van de link */
+    text-decoration: none; /* Geen onderstreping van de link */
   }

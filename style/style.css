@@ -1,0 +1,127 @@
+header {
+    background: linear-gradient(to right, yellow, red);
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .navbar-logo img {
+    height: 50px;
+  }
+  
+  .navbar-nav {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+  }
+  
+  .nav-item {
+    margin-left: 20px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 10px 15px;
+  }
+  
+  .nav-link:hover {
+    background-color: lightgray;
+  }
+  .foto-main img {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 50%;
+    margin-left: 25vw;
+    margin-top: 10vh;
+}
+
+
+
+.infoblok {
+    background-color: #62C6CD;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    text-align: center;
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #62C6CD; /* Aqua */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 5%;
+  }
+  
+  
+  h1, h2, p {
+    color: #000000; /* Aqua */
+  }
+  
+  h2 {
+    color: #FF0050; /* mboRijnland rood */
+  }
+  
+  p {
+    color: #41005A; /* mboRijnland paars */
+  }
+  
+  .container img {
+    max-width: 20%;
+    height: auto;
+    border: 2px solid #62C6CD; /* Aqua */
+    border-radius: 10px;
+    margin: 10px 0;
+  }
+  
+  
+  .portfolio {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .project {
+    text-align: center; /* Om de tekst in het midden van de div te plaatsen */
+    background-color: #f2f2f2; /* Achtergrondkleur van de div */
+    padding: 20px; /* Binnenruimte rondom de div */
+    margin-bottom: 20px; /* Afstand tussen de projectdivs */
+  }
+
+  h2 {
+    color: #333333; /* Kleur van de projecttitel */
+  }
+
+  p {
+    color: #666666; /* Kleur van de projectbeschrijving */
+  }
+
+  .project-link {
+    display: inline-block; /* Om de link naast de tekst te laten verschijnen */
+    margin-top: 10px; /* Afstand tussen de tekst en de link */
+    background-color: #ff9900; /* Achtergrondkleur van de link */
+    color: #ffffff; /* Kleur van de linktekst */
+    padding: 5px 10px; /* Binnenruimte van de link */
+    text-decoration: none; /* Geen onderstreping van de link */
+  }
